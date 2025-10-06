@@ -1,2 +1,2 @@
-cd "C:\Users\chemo\OneDrive\Documentos\NetBeansProjects\TareaParalela\src"
+cd "C:\Users\chemo\Documents\NetBeansProjects\Tarea-Paralela-Conexion-PCs\src"
 java paralela.SumaDistribuida
