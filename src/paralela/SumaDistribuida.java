@@ -8,23 +8,9 @@ import java.util.Scanner;
 public class SumaDistribuida
 {
 
-    public static void main(String[] args) throws IOException
-    {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("¿Quieres ejecutar como servidor (s) o cliente (c)? ");
-        String modo = sc.nextLine();
+    public static String ipUriel = "172.17.245.60";
 
-        if (modo.equalsIgnoreCase("s"))
-        {
-            ejecutarServidor();
-        } else if (modo.equalsIgnoreCase("c"))
-        {
-            ejecutarCliente();
-        } else
-        {
-            System.out.println("Opción no válida.");
-        }
-    }
+    
 
     // ================= SERVIDOR ====================
     public static void ejecutarServidor()
